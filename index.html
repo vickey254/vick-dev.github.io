@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victor Mawira | Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- ===== Navbar ===== -->
+    <nav class="navbar">
+        <a href="#home" class="logo">Vickey<span>.</span>dev</a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="menu-btn" id="menuBtn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="hero-sub">👋 Hello, I'm</p>
+            <h1>Victor Mawira</h1>
+            <h2 class="typed">Web Developer</h2>
+            <p class="hero-desc">
+                I build clean, modern, and responsive websites.
+                Passionate about turning ideas into real projects.
+            </p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section class="section" id="about">
+        <h2 class="section-title">About <span>Me</span></h2>
+        <div class="about-grid">
+            <div class="about-text">
+                <p>
+                    I'm a junior web developer on a mission to master modern
+                    web technologies. I started coding recently and I'm already
+                    building real projects with HTML, CSS, and JavaScript.
+                </p>
+                <p>
+                    My goal is to become a full-stack developer and create
+                    products that people love to use.
+                </p>
+            </div>
+            <div class="about-stats">
+                <div class="stat">
+                    <h3>10+</h3>
+                    <p>Projects Built</p>
+                </div>
+                <div class="stat">
+                    <h3>6+</h3>
+                    <p>Months Learning</p>
+                </div>
+                <div class="stat">
+                    <h3>100%</h3>
+                    <p>Dedication</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section class="section" id="skills">
+        <h2 class="section-title">My <span>Skills</span></h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fab fa-html5"></i>
+                <h3>HTML5</h3>
+                <div class="progress"><div class="bar" style="width: 90%"></div></div>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS3</h3>
+                <div class="progress"><div class="bar" style="width: 80%"></div></div>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+                <div class="progress"><div class="bar" style="width: 65%"></div></div>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-git-alt"></i>
+                <h3>Git</h3>
+                <div class="progress"><div class="bar" style="width: 50%"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section class="section" id="projects">
+        <h2 class="section-title">My <span>Projects</span></h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-img gradient-1"><i class="fas fa-shopping-cart"></i></div>
+                <h3>E-Commerce Store</h3>
+                <p>A clean online store layout built with HTML & CSS.</p>
+                <div class="tags"><span>HTML</span><span>CSS</span></div>
+            </div>
+            <div class="project-card">
+                <div class="project-img gradient-2"><i class="fas fa-cloud-sun"></i></div>
+                <h3>Weather App</h3>
+                <p>Fetches live weather data using JavaScript APIs.</p>
+                <div class="tags"><span>JavaScript</span><span>API</span></div>
+            </div>
+            <div class="project-card">
+                <div class="project-img gradient-3"><i class="fas fa-gamepad"></i></div>
+                <h3>Quiz Game</h3>
+                <p>An interactive quiz with score tracking and timers.</p>
+                <div class="tags"><span>JavaScript</span><span>DOM</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="section" id="contact">
+        <h2 class="section-title">Get In <span>Touch</span></h2>
+        <form class="contact-form" id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn btn-primary">Send Message 🚀</button>
+            <p id="formStatus"></p>
+        </form>
+    </section>
+
+    <!-- ===== Footer ===== -->
+    <footer>
+        <div class="socials">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>© 2026 Victor Mawira. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
